@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Multi-threaded banner grabbing with active service probing,
+OBannerGrab is a multi-threaded service banner and version probe for reconnaissance on authorised targets. It performs active service probing with SSL/TLS fingerprinting, expands CIDR targets and port ranges, and surfaces CVE hints based on identified banners. A graphical interface shows live progress and results export to CSV, JSON, TXT and HTML.
 
 ---
 
 ## ✨ Features
 
-- OBannerGrab v1.1 — Multi-threaded service banner & version probe with SSL/TLS and CVE hints.
+- Multi-threaded banner grabbing with active service probing
+- SSL/TLS fingerprinting on encrypted ports
+- CIDR target expansion and flexible port-range parsing
+- Product/version fingerprinting with CVE/risk hints
+- Real-time progress display in a GUI
+- Export results to CSV, JSON, TXT and HTML
 
 ---
 
@@ -39,6 +44,8 @@ Multi-threaded banner grabbing with active service probing,
 
 ```bash
 ./OBannerGrab
+./OBannerGrab --smoke-test
+./OBannerGrab --help
 ```
 
 ---
