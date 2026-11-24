@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:034b4d94-8905-48ff-a1bd-167ee7c2afd1",
+  "serialNumber": "urn:uuid:b678c792-dc13-49b9-9f83-82a56f701dc8",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-11-23T23:41:05Z",
+    "timestamp": "2026-11-24T12:08:25Z",
     "tools": [
       {
         "vendor": "Owlsec LLC",
@@ -38,7 +38,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "7f914a5f5f0d8d64ccb6f2669405f7acf9adec12c2938f3d37bc388ddeb5bf89"
+          "content": "9e2e27becd1d5f90f327c15edc3025d5f396f27ce6baa9d95bd804ebd91bcdcd"
         }
       ],
       "properties": [
@@ -48,7 +48,7 @@
         },
         {
           "name": "owlsec:binary-size",
-          "value": "17268960"
+          "value": "12473784"
         },
         {
           "name": "owlsec:source-available",
@@ -58,126 +58,6 @@
     }
   },
   "components": [
-    {
-      "type": "library",
-      "name": "scapy",
-      "licenses": [
-        {
-          "license": {
-            "id": "GPL-2.0-only"
-          }
-        }
-      ],
-      "scope": "required",
-      "purl": "pkg:pypi/scapy",
-      "description": "بديل: dpkt (BSD) أو raw sockets أو استدعاء tcpdump/tshark كعملية منفصلة"
-    },
-    {
-      "type": "library",
-      "name": "jinja2",
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "scope": "required",
-      "purl": "pkg:pypi/jinja2"
-    },
-    {
-      "type": "library",
-      "name": "markupsafe",
-      "licenses": [
-        {
-          "license": {
-            "id": "BSD-3-Clause"
-          }
-        }
-      ],
-      "scope": "required",
-      "purl": "pkg:pypi/markupsafe"
-    },
-    {
-      "type": "library",
-      "name": "packaging",
-      "licenses": [
-        {
-          "license": {
-            "name": "Apache-2.0 OR BSD-2-Clause"
-          }
-        }
-      ],
-      "scope": "required",
-      "purl": "pkg:pypi/packaging"
-    },
-    {
-      "type": "library",
-      "name": "pyparsing",
-      "licenses": [
-        {
-          "license": {
-            "name": "MIT License"
-          }
-        }
-      ],
-      "scope": "required",
-      "purl": "pkg:pypi/pyparsing"
-    },
-    {
-      "type": "library",
-      "name": "setuptools",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
-      "scope": "required",
-      "version": "66.1.1",
-      "purl": "pkg:pypi/setuptools@66.1.1"
-    },
-    {
-      "type": "library",
-      "name": "sitecustomize",
-      "licenses": [
-        {
-          "license": {
-            "name": "-"
-          }
-        }
-      ],
-      "scope": "required",
-      "purl": "pkg:pypi/sitecustomize",
-      "description": "ملف تهيئة من PyInstaller، ليس مكتبة"
-    },
-    {
-      "type": "library",
-      "name": "typing_extensions",
-      "licenses": [
-        {
-          "license": {
-            "name": "PSF-2.0"
-          }
-        }
-      ],
-      "scope": "required",
-      "purl": "pkg:pypi/typing_extensions"
-    },
-    {
-      "type": "library",
-      "name": "_asyncio.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
     {
       "type": "library",
       "name": "_bz2.cpython-311-x86_64-linux-gnu.so",
@@ -284,19 +164,6 @@
     },
     {
       "type": "library",
-      "name": "_ctypes.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
       "name": "_decimal.cpython-311-x86_64-linux-gnu.so",
       "scope": "required",
       "licenses": [
@@ -362,32 +229,6 @@
     },
     {
       "type": "library",
-      "name": "_multiprocessing.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
-      "name": "_posixshmem.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
       "name": "_queue.cpython-311-x86_64-linux-gnu.so",
       "scope": "required",
       "licenses": [
@@ -401,46 +242,7 @@
     },
     {
       "type": "library",
-      "name": "_speedups.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
       "name": "_ssl.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
-      "name": "_testcapi.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
-      "name": "_testinternalcapi.cpython-311-x86_64-linux-gnu.so",
       "scope": "required",
       "licenses": [
         {
@@ -661,19 +463,6 @@
     },
     {
       "type": "library",
-      "name": "libffi.so.8",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
       "name": "libfontconfig.so.1",
       "scope": "required",
       "licenses": [
@@ -752,19 +541,6 @@
     },
     {
       "type": "library",
-      "name": "libreadline.so.8",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
       "name": "libssl.so.3",
       "scope": "required",
       "licenses": [
@@ -779,19 +555,6 @@
     {
       "type": "library",
       "name": "libtcl8.6.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
-      "name": "libtinfo.so.6",
       "scope": "required",
       "licenses": [
         {
@@ -830,46 +593,7 @@
     },
     {
       "type": "library",
-      "name": "mmap.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
-      "name": "readline.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
       "name": "resource.cpython-311-x86_64-linux-gnu.so",
-      "scope": "required",
-      "licenses": [
-        {
-          "license": {
-            "name": "انظر حزمة Debian الأصلية"
-          }
-        }
-      ],
-      "description": "مكتبة مشتركة من نظام Debian، مدمجة بواسطة PyInstaller"
-    },
-    {
-      "type": "library",
-      "name": "termios.cpython-311-x86_64-linux-gnu.so",
       "scope": "required",
       "licenses": [
         {
